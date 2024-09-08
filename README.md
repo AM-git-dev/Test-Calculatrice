@@ -1,4 +1,4 @@
-# Ceci est mon premier projet personnel de dévellopement
+# Ceci est mon premier projet personnel de développement
 
 Je suis parti de la calculatrice de base d'iOS comme modèle
 
