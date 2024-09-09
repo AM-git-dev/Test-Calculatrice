@@ -21,6 +21,7 @@
                 <input type="text" name="display">
             </div>     
             <div>
+                <!-- function onclick to say what'll happen on click => on the display, it'll show the value of the defined value -->
                 <input type="button" value="AC" onclick="display.value = ''">
                 <input type="button" value="C">
                 <input type="button" value=".">
@@ -51,6 +52,7 @@
             <div>
                 <input type="button" value="0" onclick="display.value +='0'">
                 <input type="button" value="," onclick="display.value +=','">
+                <!-- the eval function will evaluate what has been written in the display => value and show the result of the operation -->
                 <input type="button" value="=" onclick="display.value = eval(display.value) " class="orange-btn">
             </div>
         </form>
